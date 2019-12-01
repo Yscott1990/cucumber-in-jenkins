@@ -5,7 +5,8 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/features/"}, format = "json:target/cucumber/cucumber.json")
+@CucumberOptions(features = {"src/test/resources/features/"},
+        format = "json:target/cucumber/cucumber.json")
 public class CucumberTest {
 }
 

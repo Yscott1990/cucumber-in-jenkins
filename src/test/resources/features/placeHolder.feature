@@ -18,9 +18,9 @@ Feature: test calculator service
     Then I should have 1002
 
     Given I have MainApp running
-    When I set value to 1000
+    When I set value to 10000
     And I wait for 1 seconds
-    Then I should have 1005
+    Then I should have 10002
 
 
 

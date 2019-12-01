@@ -1,0 +1,26 @@
+<assembly>
+    <id></id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+<!--    <fileSets>-->
+<!--        <fileSet>-->
+<!--            <directory>/</directory>-->
+<!--            <includes>*.properties</includes>-->
+<!--            <outputDirectory>etc</outputDirectory>-->
+<!--        </fileSet>-->
+<!--    </fileSets>-->
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>true</useProjectArtifact>
+            <outputDirectory>lib</outputDirectory>
+            <scope>runtime</scope>
+        </dependencySet>
+    </dependencySets>
+<!--    <fileSets>-->
+<!--        <fileSet>-->
+<!--            <directory>src/test/resources/features</directory>-->
+<!--            <outputDirectory>etc</outputDirectory>-->
+<!--        </fileSet>-->
+<!--    </fileSets>-->
+</assembly>
